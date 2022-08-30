@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Appetizers</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Varela+Round&display=swap" rel="stylesheet">
@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Navbar brand -->
                 <a class="navbar-brand mt-2 mt-lg-0" href="#">
-                    <img src="Logo.png" height="60" alt="Dolphin Bay Logo" loading="lazy" />
+                    <img src="../Pictures/Logo.png" height="60" alt="Dolphin Bay Logo" loading="lazy" />
                 </a>
             </div>
             <!-- Collapsible wrapper -->
@@ -56,46 +56,51 @@
     <!-- Navbar -->
 
     <div>
-        <a id="previous-button" style="color:grey" href="menu.html">&#8249;</a>
+        <a id="previous-button" style="color:grey" href="../menu.html">&#8249;</a>
     </div>
 
     <div id="main-content" class="container">
-
         <div class="flexbox">
-            <img class="menu-categories-title-w-subtitle" src="Title Assets/fried-rice-title.png"
-                alt="Title: Fried Rice">
+            <img class="menu-categories-title-w-subtitle" src="../Pictures/Titles/noodle-soup-title.png"
+                alt="Title: Noodle Soup">
         </div>
-        <div class="text-center" id="menu-categories-subtitle">FRIED RICE WITH EGGS, SCALLION, AND ONION <br>
-            MIX AND MATCH FOR AN EXTRA $2 EACH</div>
+        <div class="text-center" id="menu-categories-subtitle">SUBSTITUTE WITH RICE OR RICE NOODLES UPON REQUEST</div>
 
         <section class="row">
 
             <div class="menu-item-tile col-md-4">
                 <div class="menu-item-description">
-                    <h3 class="menu-item-title-english">Shrimp &nbsp;
-                        <span class="menu-item-title-chinese">蝦仁蛋炒飯</span>
+                    <h3 class="menu-item-title-english">Crispy Pork Chop &nbsp;
+                        <span class="menu-item-title-chinese">酥炸排骨麵</span>
                     </h3>
-                    <p id="price" style="background-color:#E6F0F6;">$15.00</p>
+                    <p class="menu-item-details">Served with a bone-in pork chop, breaded and
+                        fried to order.</p>
+                    <p id="price" style="background-color:#E6F0F6;">$14.00</p>
                 </div>
                 <!--   <hr class="visible-xs">  -->
             </div>
 
             <div class="menu-item-tile col-md-4">
                 <div class="menu-item-description">
-                    <h3 class="menu-item-title-english">Ham &nbsp;
-                        <span class="menu-item-title-chinese">火腿蛋炒飯</span>
+                    <h3 class="menu-item-title-english">Salt & Pepper Pork Chop &nbsp;
+                        <span class="menu-item-title-chinese">椒鹽排骨麵</span>
                     </h3>
-                    <p id="price" style="background-color:#E6F0F6;">$15.00</p>
+                    <p class="menu-item-details">Served with
+                        A bone-in pork chop fried without breading
+                        and seasoned with pepper salt.</p>
+                    <p id="price" style="background-color:#E6F0F6;">$14.00</p>
                 </div>
                 <!--   <hr class="visible-xs">  -->
             </div>
 
             <div class="menu-item-tile col-md-4">
                 <div class="menu-item-description">
-                    <h3 class="menu-item-title-english">Chicken &nbsp;
-                        <span class="menu-item-title-chinese">雞肉蛋炒飯</span>
+                    <h3 class="menu-item-title-english">Salted Vegetable & Pork &nbsp;
+                        <span class="menu-item-title-chinese">雪菜肉絲麵</span>
                     </h3>
-                    <p id="price" style="background-color:#E6F0F6;">$15.00</p>
+                    <p class="menu-item-details">Shredded pork, salted mustard greens, and
+                        noodles cooked in a light broth.</p>
+                    <p id="price" style="background-color:#E6F0F6;">$14.00</p>
                 </div>
                 <!--   <hr class="visible-xs">  -->
             </div>
@@ -105,23 +110,57 @@
 
             <div class="menu-item-tile col-md-4">
                 <div class="menu-item-description">
-                    <h3 class="menu-item-title-english">Taiwanese Sausage <br>
-                        <span class="menu-item-title-chinese">香腸蛋炒飯</span>
+                    <h3 class="menu-item-title-english">Wonton &nbsp;
+                        <span class="menu-item-title-chinese">餛飩麵</span>
                     </h3>
-                    <p id="price" style="background-color:#E6F0F6;">$15.00</p>
+                    <p class="menu-item-details">Served with our homemade wontons.
+                        Please allow 12-15 minutes for preparation.</p>
+                    <p id="price" style="background-color:#E6F0F6;">$14.00</p>
                 </div>
                 <!--   <hr class="visible-xs">  -->
             </div>
 
             <div class="menu-item-tile col-md-4">
                 <div class="menu-item-description">
-                    <h3 class="menu-item-title-english">Salted Vegetable & Pork <br>
-                        <span class="menu-item-title-chinese">雪菜肉絲蛋炒飯</span>
+                    <h3 class="menu-item-title-english">Braised Beef &nbsp;
+                        <span class="menu-item-title-chinese">紅燒牛肉麵</span>
                     </h3>
-                    <p id="price" style="background-color:#E6F0F6;">$15.00</p>
+                    <p class="menu-item-details">Our signature beef broth with slices of
+                        beef shank, tendon, seasonal vegetables,
+                        and scallion. Choose from Half Tendon Half Meat, All Meat, or All Tendon.
+                        Choose from Mild, Medium, Hot, or None</p>
+                    <p id="price" style="background-color:#E6F0F6;">$14.50</p>
                 </div>
                 <!--   <hr class="visible-xs">  -->
             </div>
+
+            <div class="menu-item-tile col-md-4">
+                <div class="menu-item-description">
+                    <h3 class="menu-item-title-english">Crispy Chicken Cutlet &nbsp;
+                        <span class="menu-item-title-chinese">酥炸雞排麵</span>
+                    </h3>
+                    <p class="menu-item-details">Served with a juicy chicken cutlet,
+                        breaded and fried to order.</p>
+                    <p id="price" style="background-color:#E6F0F6;">$14.00</p>
+                </div>
+                <!--   <hr class="visible-xs">  -->
+            </div>
+
+            <!-- Add after every 3rd menu-item-tile -->
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+
+            <div class="menu-item-tile col-md-4">
+                <div class="menu-item-description">
+                    <h3 class="menu-item-title-english">Chicken Thigh &nbsp;
+                        <span class="menu-item-title-chinese">炸雞腿麵/滷雞腿麵</span>
+                    </h3>
+                    <p class="menu-item-details">Served with a chicken thigh and
+                        drumstick, lightly fried or braised. Choose from crispy or braised.</p>
+                    <p id="price" style="background-color:#E6F0F6;">$14.00</p>
+                </div>
+                <!--   <hr class="visible-xs">  -->
+            </div>
+
         </section>
     </div>
 

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Appetizers</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Varela+Round&display=swap" rel="stylesheet">
@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Navbar brand -->
                 <a class="navbar-brand mt-2 mt-lg-0" href="#">
-                    <img src="Logo.png" height="60" alt="Dolphin Bay Logo" loading="lazy" />
+                    <img src="../Pictures/Logo.png" height="60" alt="Dolphin Bay Logo" loading="lazy" />
                 </a>
             </div>
             <!-- Collapsible wrapper -->
@@ -56,53 +56,51 @@
     <!-- Navbar -->
 
     <div>
-        <a id="previous-button" style="color:grey" href="menu.html">&#8249;</a>
+        <a id="previous-button" style="color:grey" href="../menu.html">&#8249;</a>
     </div>
 
     <div id="main-content" class="container">
 
         <div class="flexbox">
-            <img class="menu-categories-title-w-subtitle" style="width: 300px" src="Title Assets/juice-title.png"
-                alt="Title: Juice">
+            <img class="menu-categories-title" style="width: 600px"
+                src="../Pictures/Titles/vegetarian-options-title.png" alt="Title: Vegetarian Options">
         </div>
-        <div class="text-center" id="menu-categories-subtitle">FRESHLY BLENDED FRUIT JUICES <br>
-            24 OZ $5.50</div>
 
         <section class="row">
 
-            <div class="menu-item-tile col-md-3">
+            <div class="menu-item-tile-no-description col-md-4">
                 <div class="menu-item-description">
-                    <h3 class="menu-item-title-english">Strawberry &nbsp;
-                        <span class="menu-item-title-chinese">草莓</span>
+                    <h3 class="menu-item-title-english">Egg Fried Rice &nbsp;
+                        <span class="menu-item-title-chinese">蛋炒飯</span>
                     </h3>
+                    <p class="menu-item-details">Fried rice with eggs, scallion, onion, and bean
+                        curd.</p>
+                    <p id="price" style="background-color:#E6F0F6;">$15.00</p>
                 </div>
                 <!--   <hr class="visible-xs">  -->
             </div>
 
-            <div class="menu-item-tile col-md-3">
+            <div class="menu-item-tile-no-description col-md-4">
                 <div class="menu-item-description">
-                    <h3 class="menu-item-title-english">Mango &nbsp;
-                        <span class="menu-item-title-chinese">芒果</span>
+                    <h3 class="menu-item-title-english">Vegetarian Seasame Noodles &nbsp;
+                        <span class="menu-item-title-chinese">素芝麻麵</span>
                     </h3>
+                    <p class="menu-item-details">Noodles with scallion, assorted greens, and
+                        bean curd. Served with homemade sesame
+                        paste. Contains traces of peanut.</p>
+                    <p id="price" style="background-color:#E6F0F6;">$13.00</p>
                 </div>
                 <!--   <hr class="visible-xs">  -->
             </div>
 
-            <div class="menu-item-tile col-md-3">
+            <div class="menu-item-tile-no-description col-md-4">
                 <div class="menu-item-description">
-                    <h3 class="menu-item-title-english">Peach &nbsp;
-                        <span class="menu-item-title-chinese">水蜜桃</span>
+                    <h3 class="menu-item-title-english">Vegetarian Stir-fried Udon &nbsp;
+                        <span class="menu-item-title-chinese">台式炒烏龍</span>
                     </h3>
-                </div>
-                <!--   <hr class="visible-xs">  -->
-            </div>
-
-
-            <div class="menu-item-tile col-md-3">
-                <div class="menu-item-description">
-                    <h3 class="menu-item-title-english">Honey Lemon &nbsp;
-                        <span class="menu-item-title-chinese">蜂蜜檸檬</span>
-                    </h3>
+                    <p class="menu-item-details">Udon noodles with bean curd, carrot,
+                        onion, and assorted greens.</p>
+                    <p id="price" style="background-color:#E6F0F6;">$15.00</p>
                 </div>
                 <!--   <hr class="visible-xs">  -->
             </div>
@@ -110,41 +108,44 @@
             <!-- Add after every 3rd menu-item-tile -->
             <div class="clearfix visible-lg-block visible-md-block"></div>
 
-            <div class="menu-item-tile col-md-3">
+            <div class="menu-item-tile-no-description col-md-4">
                 <div class="menu-item-description">
-                    <h3 class="menu-item-title-english">Lemon &nbsp;
-                        <span class="menu-item-title-chinese">檸檬</span>
+                    <h3 class="menu-item-title-english">Boiled Vegetables &nbsp;
+                        <span class="menu-item-title-chinese">燙⻘菜</span>
                     </h3>
+                    <p class="menu-item-details">Seasonal vegetables cooked and
+                        garnished with our house special sauce,
+                        Without ground pork like our standard
+                        version.</p>
+                    <p id="price" style="background-color:#E6F0F6;">$10.00</p>
                 </div>
                 <!--   <hr class="visible-xs">  -->
             </div>
 
-            <div class="menu-item-tile col-md-3">
+            <div class="menu-item-tile-no-description col-md-4">
                 <div class="menu-item-description">
-                    <h3 class="menu-item-title-english">Lychee &nbsp;
-                        <span class="menu-item-title-chinese">荔枝</span>
+                    <h3 class="menu-item-title-english">Vegetarian Stir-fried Noodles &nbsp;
+                        <span class="menu-item-title-chinese">台式炒麵</span>
                     </h3>
+                    <p class="menu-item-details">Noodles with bean curd, carrot, onion, and
+                        assorted greens.</p>
+                    <p id="price" style="background-color:#E6F0F6;">$15.00</p>
                 </div>
                 <!--   <hr class="visible-xs">  -->
             </div>
 
-            <div class="menu-item-tile col-md-3">
+            <div class="menu-item-tile-no-description col-md-4">
                 <div class="menu-item-description">
-                    <h3 class="menu-item-title-english">Honey Grapefruit &nbsp;
-                        <span class="menu-item-title-chinese">蜂蜜葡萄柚</span>
+                    <h3 class="menu-item-title-english">Vegetarian Stir-fried Rice Noodles &nbsp;
+                        <span class="menu-item-title-chinese">台式炒米粉</span>
                     </h3>
+                    <p class="menu-item-details">Rice noodles with bean curd, carrot, onion,
+                        and assorted greens.</p>
+                    <p id="price" style="background-color:#E6F0F6;">$15.00</p>
                 </div>
                 <!--   <hr class="visible-xs">  -->
             </div>
 
-            <div class="menu-item-tile col-md-3">
-                <div class="menu-item-description">
-                    <h3 class="menu-item-title-english">Grapefruit &nbsp;
-                        <span class="menu-item-title-chinese">葡萄柚</span>
-                    </h3>
-                </div>
-                <!--   <hr class="visible-xs">  -->
-            </div>
         </section>
     </div>
 

@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Menu Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Appetizers</title>
+    <link rel="stylesheet" href="../styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Varela+Round&display=swap" rel="stylesheet">
     <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Montserrat&family=Varela+Round&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Montserrat:wght@400;600&family=Noto+Serif+SC:wght@600&family=Varela+Round&display=swap"
         rel="stylesheet">
 </head>
 
@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Navbar brand -->
                 <a class="navbar-brand mt-2 mt-lg-0" href="#">
-                    <img src="Logo.png" height="60" alt="Dolphin Bay Logo" loading="lazy" />
+                    <img src="../Pictures/Logo.png" height="60" alt="Dolphin Bay Logo" loading="lazy" />
                 </a>
             </div>
             <!-- Collapsible wrapper -->
@@ -40,7 +40,7 @@
                 <a class="text-reset me-3" href="#">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 hover-nav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item px-3 hvr-underline-from-center">
                         <a class="nav-link" href="menu.html">Menu</a>
                     </li>
@@ -55,21 +55,60 @@
     </nav>
     <!-- Navbar -->
 
+    <div>
+        <a id="previous-button" style="color:grey" href="../menu.html">&#8249;</a>
+    </div>
+
     <div id="main-content" class="container">
+
         <div class="flexbox">
-            <img class="menu-categories-title-w-subtitle" style="width: 280px; margin-top: 50px"
-                style="margin-top: 50px" src="Title Assets/about-title.png" alt="Title: About">
+            <img class="menu-categories-title" style="width: 300px" src="../Pictures/Titles/soup-title.png"
+                alt="Title: Soup">
         </div>
-        <p class="about-details">Dolphin Bay was established in 2000 in Rowland Heights, California. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Pretium maecenas suspendisse lacinia amet gravida. Arcu et sit varius
-            posuere. Dui ipsum interdum mi et mauris, aliquet quis fermentum phasellus. Tincidunt eget dui sit sed eget
-            sed sit interdum interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium maecenas
-            suspendisse lacinia amet gravida. Arcu et sit varius posuere. </p>
-        <!-- <div class="menu-item-description">
-            <h3 class="about-title">HEAR FROM OUR CUSTOMERS</h3>
-        </div> -->
 
+        <section class="row">
 
+            <div class="menu-item-tile-no-description col-md-3">
+                <div class="menu-item-description">
+                    <h3 class="menu-item-title-english">Wonton Soup &nbsp;
+                        <span class="menu-item-title-chinese">餛飩湯</span>
+                    </h3>
+                    <p id="price" style="background-color:#E6F0F6;">$12.00</p>
+                </div>
+                <!--   <hr class="visible-xs">  -->
+            </div>
+
+            <div class="menu-item-tile-no-description col-md-3">
+                <div class="menu-item-description">
+                    <h3 class="menu-item-title-english">Braised Beef Soup &nbsp;
+                        <span class="menu-item-title-chinese">牛肉湯</span>
+                    </h3>
+                    <p id="price" style="background-color:#E6F0F6;">$13.00</p>
+                </div>
+                <!--   <hr class="visible-xs">  -->
+            </div>
+
+            <div class="menu-item-tile-no-description col-md-3">
+                <div class="menu-item-description">
+                    <h3 class="menu-item-title-english">Fish Ball Soup &nbsp;
+                        <span class="menu-item-title-chinese">魚丸湯</span>
+                    </h3>
+                    <p id="price" style="background-color:#E6F0F6;">$8.00</p>
+                </div>
+                <!--   <hr class="visible-xs">  -->
+            </div>
+
+            <div class="menu-item-tile-no-description col-md-3">
+                <div class="menu-item-description">
+                    <h3 class="menu-item-title-english">Egg Flower Soup &nbsp;
+                        <span class="menu-item-title-chinese">蛋花湯</span>
+                    </h3>
+                    <p id="price" style="background-color:#E6F0F6;">$7.00</p>
+                </div>
+                <!--   <hr class="visible-xs">  -->
+            </div>
+
+        </section>
     </div>
 
     <!-- Footer -->
@@ -78,10 +117,9 @@
         <div class="container">
             <div class="row">
                 <section id="address" class="col-sm-4">
-                    <span>Address:</span><br>
+                    <span>Address:</span><br> <!-- Use span here bc we want to style Address differently -->
                     72 Brighton Ave,
                     Allston, MA 02134
-                    <!-- <hr class="visible-xs" class="text-center"> -->
                 </section>
                 <section id="hours" class="col-sm-4">
                     <span>Hours:</span><br>
@@ -90,19 +128,14 @@
                     Friday & Saturday 11:00AM - 9:30PM<br>
                     Takeout<br>
                     Monday - Sunday 11:00AM - 9:00PM
-                    <!-- <hr class="visible-xs" class="text-center">> -->
                 </section>
             </div>
             <div class="text-center">&copy; Copyright Dolphin Bay</div>
         </div>
     </footer>
 
-
     <!-- Footer -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
