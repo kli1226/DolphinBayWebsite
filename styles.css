@@ -127,6 +127,27 @@ body {
 
 /* END FOOTER */
 
+/* SEARCH BAR */
+
+#searchbar {
+    margin-left: 15%;
+    padding: 15px;
+    height: 40px;
+    border-color: white;
+    box-shadow: rgba(105, 108, 110, 0.3) 0px 1px 2px 0px, rgba(155, 158, 161, 0.15) 0px 1px 3px 1px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+    border: none;
+}
+
+input[type="text"] {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+}
+
+/* END SEARCH BAR */
+
 /* MENU PAGE */
 
 .center-picture {
